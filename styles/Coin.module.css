@@ -1,0 +1,15 @@
+.wave {
+  position: relative;
+  right: 30%;
+  width: 160%;
+  height: 160%;
+  transform-origin: 50% 50%;
+  border-radius: 78% 56%;
+  animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
