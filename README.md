@@ -9,19 +9,26 @@ This is a [Apexloaded.com](https://apexloaded.com/) Blockchain Voting System tut
 
 To get started with this project, kindly run the following code
 
-First:- Clone the github repo
+Step 1 - Clone the github repo
 ```bash
 git clone https://github.com/Apexloaded/b-vote-completed.git
 ```
 
-Second:- Install Dependencies
+Step 2 - Install Dependencies
 ```bash
 yarn
 #or
 npm install
 ```
 
-Third:- Spin up dev server
+Step 3 - Add Moralis server credentials in next.config.js
+```bash
+MORALIS_URL: '',
+MORALIS_ID: '',
+CONTRACT_ADDR: ''
+```
+
+Step 4 - Spin up dev server
 ```bash
 npm run dev
 ```
