@@ -3,7 +3,6 @@ import { useMoralis, useWeb3ExecuteFunction } from "react-moralis";
 import { abouts } from "./About";
 
 function Coin({perc, setPerc, token, setModalToken, setisVisible, setDesc}) {
-    console.log(token);
     const [color, setColor] = useState();
     const {isAuthenticated} = useMoralis();
     const contractProcessor = useWeb3ExecuteFunction();

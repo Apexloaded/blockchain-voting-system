@@ -40,7 +40,6 @@ export default function Home() {
     let up = Number(res.attributes.up);
     let down = Number(res.attributes.down);
     let ratio = Math.round(up/(up+down)*100);
-    console.log(ratio);
     setPerc(ratio);
   }
 
